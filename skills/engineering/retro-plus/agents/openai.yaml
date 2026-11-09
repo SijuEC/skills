@@ -1,0 +1,5 @@
+interface:
+  display_name: "Retro Plus"
+  short_description: "Conduct a retrospective on a coding session, backed by evidence mined from recent session logs."
+policy:
+  allow_implicit_invocation: false

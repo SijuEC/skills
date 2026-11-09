@@ -227,6 +227,7 @@ Skills I use daily for code work.
 - **[implement-spec](./skills/engineering/implement-spec/SKILL.md)**: Implement a whole spec on one integration branch. Works the tickets as a task graph, running implementer subagents across the ready frontier for maximum concurrency, then closes out with `/code-review`.
 - **[wayfinder](./skills/engineering/wayfinder/SKILL.md)**: Plan a huge chunk of work, more than one agent session can hold, as a shared map of decision tickets on the issue tracker, and resolve them one at a time until the way to the destination is clear.
 - **[retro](./skills/engineering/retro/SKILL.md)**: Suggest improvements to the coding agent's environment (navigation, automated checks, coding standards, steering files, tooling) after a session, most severe first.
+- **[retro-plus](./skills/engineering/retro-plus/SKILL.md)**: `retro` backed by evidence from recent session logs: learns environment facts from failures that repeat across sessions, lists unused skills and tools by token cost, and traces stuck turns to their cause, ranked by tokens saved.
 
 **Model-invoked**
 
